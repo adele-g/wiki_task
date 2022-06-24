@@ -1,11 +1,11 @@
-#Task for finding articles by their title in wiki 
+# Task for finding articles by their title in wiki 
 
 ### Technology Stack
 - Spring Boot
 - REST API
 - MongoDB
 
-###Prepare database
+### Prepare database
 ```
 use wiki_dump
 
@@ -20,7 +20,7 @@ mongod.exe
 gradlew bootRun
 ```
 
-###Usage 
+### Usage 
 ```$xslt
 localhost:8081/wiki/title -> for one string output
 localhost:8081/wiki/title?format=pretty -> for json output
